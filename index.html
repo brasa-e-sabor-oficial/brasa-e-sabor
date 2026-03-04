@@ -10,22 +10,19 @@
         body { font-family: 'Poppins', sans-serif; background-color: #000; color: #fff; }
         .gold-text { color: #D4AF37; }
         .gold-bg { background-color: #D4AF37; }
-        h1, h2 { font-family: 'Playfair Display', serif; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        .logo-img { height: 80px; width: auto; }
     </style>
 </head>
 <body class="bg-black text-white">
 
-    <header class="p-6 flex justify-between items-center border-b border-gray-800">
-        <h1 class="text-2xl font-bold gold-text">BRASA & SABOR</h1>
-        <nav class="hidden md:flex gap-6">
-            <a href="#" class="hover:gold-text">Início</a>
-            <a href="#produtos" class="hover:gold-text">Produtos</a>
-        </nav>
+    <header class="p-4 flex justify-center items-center border-b border-gray-800">
+        <img src="logo.png" alt="Brasa & Sabor Logo" class="logo-img">
     </header>
 
     <section class="text-center py-16 px-6 bg-gradient-to-b from-gray-900 to-black">
-        <h2 class="text-4xl md:text-6xl mb-4">O Segredo do Melhor Churrasco</h2>
-        <p class="text-gray-400 max-w-2xl mx-auto mb-8">Temperos artesanais feitos para quem não abre mão de qualidade e sabor incomparável em São Miguel do Guamá.</p>
+        <h2 class="text-4xl md:text-6xl mb-4 gold-text">O Segredo do Melhor Churrasco</h2>
+        <p class="text-gray-400 max-w-2xl mx-auto mb-8">Temperos artesanais feitos para quem não abre mão de qualidade e sabor incomparável.</p>
         <a href="https://wa.me/5591981267492" class="gold-bg text-black px-8 py-3 rounded-full font-bold hover:bg-yellow-600 transition">Peça Agora no WhatsApp</a>
     </section>
 
@@ -37,7 +34,7 @@
                 <img src="tradicional.jpg" alt="Tempero Tradicional" class="w-full h-64 object-cover">
                 <div class="p-6 text-center">
                     <h4 class="text-xl font-bold mb-2">Tempero Tradicional (Pote)</h4>
-                    <p class="text-gray-400 mb-4">O equilíbrio perfeito para carnes bovinas e suínas.</p>
+                    <p class="text-gray-400 mb-4 text-sm">Combinação equilibrada com um toque de pimenta do reino. Ideal para todos os tipos de carnes.</p>
                     <span class="text-2xl font-bold gold-text block mb-4">R$ 16,90</span>
                     <a href="https://wa.me/5591981267492?text=Olá!+Quero+o+Tempero+Tradicional" class="border border-gold-bg text-gold-bg px-6 py-2 rounded-full hover:bg-gold-text hover:text-black transition">Adicionar ao Pedido</a>
                 </div>
@@ -47,7 +44,7 @@
                 <img src="premium.jpg" alt="Tempero Premium" class="w-full h-64 object-cover bg-gray-800">
                 <div class="p-6 text-center">
                     <h4 class="text-xl font-bold mb-2">Tempero Premium (Pote)</h4>
-                    <p class="text-gray-400 mb-4">Toque defumado e especiarias selecionadas para cortes nobres.</p>
+                    <p class="text-gray-400 mb-4 text-sm">Toque defumado e ervas finas para cortes nobres e experiências gourmet.</p>
                     <span class="text-2xl font-bold gold-text block mb-4">R$ 19,90</span>
                     <a href="https://wa.me/5591981267492?text=Olá!+Quero+o+Tempero+Premium" class="border border-gold-bg text-gold-bg px-6 py-2 rounded-full hover:bg-gold-text hover:text-black transition">Adicionar ao Pedido</a>
                 </div>
@@ -57,7 +54,6 @@
 
     <footer class="p-10 text-center border-t border-gray-800 text-gray-500">
         <p>© 2026 Brasa & Sabor - Temperos Premium</p>
-        <p class="text-sm mt-2">São Miguel do Guamá - PA</p>
     </footer>
 
 </body>
