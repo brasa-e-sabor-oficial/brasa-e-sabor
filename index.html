@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasa & Sabor | Espetaria e Temperos Premium</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; background-color: #000; color: #fff; }
+        .gold-text { color: #D4AF37; }
+        .gold-bg { background-color: #D4AF37; }
+        .flame-bg { background: linear-gradient(0deg, #FF4500, #FF8C00); }
+        h1, h2 { font-family: 'Playfair Display', serif; }
+        .product-card:hover { transform: translateY(-10px); transition: 0.3s; }
+    </style>
+</head>
+<body>
+
+    <header class="p-6 flex justify-between items-center border-b border-gray-800 sticky top-0 bg-black z-50">
+        <h1 class="text-2xl font-bold gold-text italic">BRASA & SABOR</h1>
+        <nav class="hidden md:flex gap-8 uppercase text-sm tracking-widest">
+            <a href="#home" class="hover:text-orange-500">Início</a>
+            <a href="#produtos" class="hover:text-orange-500">Temperos</a>
+            <a href="#sobre" class="hover:text-orange-500">Nossa História</a>
+            <a href="https://wa.me/5591985235195" class="gold-text border border-yellow-600 px-4 py-1 rounded">Contato</a>
+        </nav>
+    </header>
+
+    <section id="home" class="relative h-[80vh] flex items-center justify-center text-center px-4">
+        <div class="absolute inset-0 bg-black opacity-60"></div>
+        <div class="relative z-10">
+            <span class="gold-text uppercase tracking-[0.3em] text-sm">De São Miguel do Guamá para o Brasil</span>
+            <h2 class="text-5xl md:text-7xl mt-4 mb-6">O Segredo do <br><span class="text-orange-600">Churrasco Perfeito</span></h2>
+            <p class="max-w-xl mx-auto mb-8 text-gray-300">Temperos artesanais e espetos selecionados com o toque defumado que só a Brasa & Sabor oferece.</p>
+            <a href="#produtos" class="flame-bg px-8 py-4 rounded-full font-bold uppercase text-black hover:scale-110 transition">Ver Cardápio de Temperos</a>
+        </div>
+    </section>
+
+    <section id="produtos" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl gold-text">Nossos Temperos Premium</h2>
+            <div class="w-24 h-1 bg-orange-600 mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-10">
+            <div class="product-card bg-gray-900 p-6 rounded-lg border border-gray-800 text-center">
+                <div class="h-64 bg-gray-800 rounded mb-4 flex items-center justify-center text-gray-500 italic">
+                    [ Imagem do Tempero para Churrasco ]
+                </div>
+                <h3 class="text-xl font-bold mb-2">Tempero para Churrasco e Espetinho</h3>
+                <p class="text-gray-400 text-sm mb-4">Sal, chimichurri, alho frito e páprica doce. Rende 3,5kg.</p>
+                <span class="text-2xl gold-text font-bold">R$ 35,90</span>
+                <button class="w-full mt-4 gold-bg text-black py-2 rounded font-bold">Comprar Agora</button>
+            </div>
+
+            <div class="product-card bg-gray-900 p-6 rounded-lg border border-gray-800 text-center">
+                <div class="h-64 bg-gray-800 rounded mb-4 flex items-center justify-center text-gray-500 italic">
+                    [ Imagem do Tempero Especial ]
+                </div>
+                <h3 class="text-xl font-bold mb-2">Parrilla & Ervas Finas</h3>
+                <p class="text-gray-400 text-sm mb-4">Ideal para cortes nobres e finalização na tábua.</p>
+                <span class="text-2xl gold-text font-bold">R$ 39,90</span>
+                <button class="w-full mt-4 gold-bg text-black py-2 rounded font-bold">Comprar Agora</button>
+            </div>
+
+            <div class="product-card bg-gray-900 p-6 rounded-lg border border-gray-800 text-center">
+                <div class="h-64 bg-gray-800 rounded mb-4 flex items-center justify-center text-gray-500 italic">
+                    [ Imagem Kit Brasa ]
+                </div>
+                <h3 class="text-xl font-bold mb-2">Kit Mestre Churrasqueiro</h3>
+                <p class="text-gray-400 text-sm mb-4">Combo com 3 temperos + avental exclusivo.</p>
+                <span class="text-2xl gold-text font-bold">R$ 119,00</span>
+                <button class="w-full mt-4 gold-bg text-black py-2 rounded font-bold">Comprar Agora</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-900 py-16 text-center border-t border-orange-900">
+        <h2 class="text-3xl mb-4 italic">Enviamos para todo o Brasil via Sedex</h2>
+        <p class="text-gray-400 mb-8">Saboreie a tradição paraense onde quer que você esteja.</p>
+        <a href="https://wa.me/5591985235195" class="text-green-500 font-bold text-xl underline">Fale conosco pelo WhatsApp: (91) 98523-5195</a>
+    </section>
+
+    <footer class="py-10 text-center text-gray-600 text-xs border-t border-gray-900">
+        <p>&copy; 2026 Brasa & Sabor - Espetaria & Temperos. São Miguel do Guamá - PA.</p>
+    </footer>
+
+</body>
+</html>
