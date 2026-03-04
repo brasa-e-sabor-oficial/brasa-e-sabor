@@ -22,13 +22,13 @@
 
     <section class="text-center py-20 px-6 bg-gradient-to-b from-gray-900 to-black">
         <h2 class="text-4xl md:text-6xl mb-4 gold-text italic">O Segredo do Melhor Churrasco</h2>
-        <p class="text-gray-400 max-w-2xl mx-auto mb-8 text-lg">Temperos artesanais feitos para quem não abre mão de qualidade superior e sabor incomparável.</p>
+        <p class="text-gray-400 max-w-2xl mx-auto mb-8 text-lg text-pretty">Temperos artesanais feitos para quem não abre mão de qualidade superior e sabor incomparável.</p>
         <a href="https://wa.me/5591985235195" class="gold-bg text-black px-10 py-4 rounded-full font-bold hover:bg-yellow-600 transition uppercase tracking-widest shadow-lg shadow-yellow-900/40">Peça no WhatsApp</a>
     </section>
 
     <section class="py-16 px-6 max-w-6xl mx-auto" id="produtos">
         <div class="text-center mb-12 border-b border-gray-900 pb-8">
-            <h2 class="text-4xl gold-text uppercase tracking-widest">Nossa Linha Premium</h2>
+            <h2 class="text-4xl gold-text uppercase tracking-widest text-balance">Nossa Linha Premium</h2>
         </div>
 
         <div class="grid md:grid-cols-2 gap-10">
