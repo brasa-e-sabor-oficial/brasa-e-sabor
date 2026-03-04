@@ -11,21 +11,19 @@
         .gold-text { color: #D4AF37; }
         .gold-bg { background-color: #D4AF37; }
         h1, h2, h3 { font-family: 'Playfair Display', serif; }
-        .logo-header { height: 80px; width: auto; }
+        .logo-header { height: 100px; width: auto; }
     </style>
 </head>
 <body class="bg-black text-white">
 
     <header class="p-4 flex justify-center items-center border-b border-gray-800 sticky top-0 bg-black z-50">
-        <a href="#">
-            <img src="logo.png..png" alt="Brasa & Sabor Logo" class="logo-header">
-        </a>
+        <img src="logo.png..png" alt="Brasa & Sabor Logo" class="logo-header">
     </header>
 
     <section class="text-center py-20 px-6 bg-gradient-to-b from-gray-900 to-black">
         <h2 class="text-4xl md:text-6xl mb-4 gold-text italic">O Segredo do Melhor Churrasco</h2>
         <p class="text-gray-400 max-w-2xl mx-auto mb-8 text-lg">Temperos artesanais feitos para quem não abre mão de qualidade superior e sabor incomparável.</p>
-        <a href="https://wa.me/5591981267492" class="gold-bg text-black px-10 py-4 rounded-full font-bold hover:bg-yellow-600 transition uppercase tracking-widest shadow-lg shadow-yellow-900/20">Peça no WhatsApp</a>
+        <a href="https://wa.me/5591985235195" class="gold-bg text-black px-10 py-4 rounded-full font-bold hover:bg-yellow-600 transition uppercase tracking-widest shadow-lg shadow-yellow-900/40">Peça no WhatsApp</a>
     </section>
 
     <section class="py-16 px-6 max-w-6xl mx-auto" id="produtos">
@@ -42,7 +40,7 @@
                     <h3 class="text-2xl font-bold mb-2 text-white uppercase gold-text">Tempero Tradicional</h3>
                     <p class="text-gray-400 mb-6 italic">O equilíbrio perfeito para o seu churrasco diário.</p>
                     <span class="text-4xl font-bold block mb-6">R$ 16,90</span>
-                    <a href="https://wa.me/5591981267492?text=Olá! Quero encomendar o Tempero Tradicional" class="block gold-bg text-black py-4 rounded-xl font-bold uppercase hover:bg-yellow-600 transition">Comprar via WhatsApp</a>
+                    <a href="https://wa.me/5591985235195?text=Olá! Quero encomendar o Tempero Tradicional" class="block gold-bg text-black py-4 rounded-xl font-bold uppercase hover:bg-yellow-600 transition">Comprar via WhatsApp</a>
                 </div>
             </div>
 
@@ -54,16 +52,16 @@
                     <h3 class="text-2xl font-bold mb-2 text-white uppercase gold-text">Tempero Premium</h3>
                     <p class="text-gray-400 mb-6 italic">Ingredientes selecionados para um sabor inigualável.</p>
                     <span class="text-4xl font-bold block mb-6">R$ 19,90</span>
-                    <a href="https://wa.me/5591981267492?text=Olá! Quero encomendar o Tempero Premium" class="block gold-bg text-black py-4 rounded-xl font-bold uppercase hover:bg-yellow-600 transition">Comprar via WhatsApp</a>
+                    <a href="https://wa.me/5591985235195?text=Olá! Quero encomendar o Tempero Premium" class="block gold-bg text-black py-4 rounded-xl font-bold uppercase hover:bg-yellow-600 transition">Comprar via WhatsApp</a>
                 </div>
             </div>
         </div>
     </section>
 
     <footer class="py-16 text-center text-gray-500 border-t border-gray-900 bg-zinc-950">
-        <img src="logo.png..png" alt="Logo" class="h-20 mx-auto mb-4 opacity-50">
-        <p class="uppercase tracking-widest text-xs font-bold gold-text">&copy; 2026 Brasa & Sabor</p>
-        <p class="mt-2 text-xs italic">A excelência em temperos para o seu churrasco.</p>
+        <p class="uppercase tracking-widest text-xs font-bold gold-text mb-2">&copy; 2026 Brasa & Sabor</p>
+        <p class="text-xs mb-4">Contato: (91) 98523-5195</p>
+        <img src="logo.png..png" alt="Logo" class="h-16 mx-auto opacity-30">
     </footer>
 
 </body>
